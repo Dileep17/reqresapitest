@@ -1,0 +1,17 @@
+{
+  "name": "reqresapitest",
+  "version": "1.0.0",
+  "description": "a simple node api test project",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha -p --reporter mochawesome --reporter-options inline=true --require mochawesome/register.js --exit"
+  },
+  "author": "Dileep",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "node-fetch": "^3.2.9"
+  }
+}
